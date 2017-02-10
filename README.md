@@ -1,7 +1,3 @@
-# InformationRetrievalSystem
-This project was coded as part of a course on Computer Algorithms.
-The primary objective of this work is to build a working Information Retrieval (IR) system for a collection of texts. Previously, we were able to prepare these texts for information retrieval by removing stop­words and stemming. In this project, we build an index module that allows us to retrieve the best document for a particular query. To do this, we must build an ‘index’, which stores the words of each documents and we must create a distance measurement procedure using the query and the document as vectors. The three main tasks for this project are finding the Term Frequencies, taking the Euclidian Distance between the query and all documents, and integrating graph subtypes. More information can be found in this [report](https://drive.google.com/file/d/0B21tgVksEvzLQ19PSmtLQUQydTA/view?usp=sharing).
-
 How to run the code:
 
 Open up the Run.cpp. Then run the code. It will prompt if you wish to clean the data. Type 1 if you wish to proceed, 2 if you do not.
